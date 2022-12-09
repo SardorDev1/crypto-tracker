@@ -1,0 +1,86 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box;
+    list-style: none;
+    transition: .5s ;
+    text-decoration: none !important;
+}
+
+
+body{
+
+   background-color: rgb(13, 1, 48) !important;
+overflow-x: hidden;
+}
+
+.Header{
+ 
+    min-width: 100%;
+    height:100%;
+    margin: auto;
+    margin: 30px;
+background-color: rgba(0, 0, 0, 0.521);
+border-radius: 50px;
+color: white;
+
+}
+.Header nav .brand{
+    margin-top: 30px;
+    margin-bottom: 30px !important;
+}
+.Header nav .brand img{
+    border: 5px solid white;
+    border-radius: 50%;
+}
+.Header .row .col-lg-6 h1{
+    margin-top:35px;
+    font-weight: 400;
+    font-size: 3vmax;
+    font-family: 'Silkscreen', cursive;
+}
+.Header nav .brand img:hover{
+    border: 5px solid rgb(217, 255, 0);
+}
+.coin .symbol{
+    color: gray;
+}
+.coin{
+    text-transform: capitalize;
+    font-size:1.5vmax;
+    text-align: center;
+}
+.red{
+    color: rgb(255, 74, 74);
+}
+.green{
+    color: green;
+}
+.warning{
+    color: rgb(252, 236, 99);
+}
+.green{
+    color: green;
+}
+.bar{
+    font-size: 1vmax !important;
+    text-align: center;
+}
+.object{
+    font-size: 1vmax !important;
+    text-align: center;
+}
+.all{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+ color: white !important;
+    margin-top: 20px;
+
+
+}
+.table-dark{
+ width: 100%;
+    margin: auto;
+
+ 
+}
